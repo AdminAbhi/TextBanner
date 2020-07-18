@@ -1,5 +1,4 @@
 #include<bits/stdc++.h>
-#include<conio.h>
 using namespace std;
 
 string alpha[95][7];
@@ -767,40 +766,36 @@ void setbanner()
 	alpha[94][6]="           ";
 
 
-	
+
 }
 
 
 void getlinepat(string s,int lno)
 {
 	cout<<"\t";
-	for(int i=0;i<s.length();i++)
+	for(unsigned int i=0;i<s.length();i++)
 	{
 		int idx = s[i];
 		//cout<<idx<<" ";
-		cout<<alpha[idx-32][lno];		
+		cout<<alpha[idx-32][lno];
 	}
 	cout<<"\n";
 
 }
 int main()
 {
-
 	setbanner();
-	cout<<"\n";
 
-	
+		cout<<"\n";
 		string str;
+
 		cout<<"Enter a line to print : ";
-		getline (cin, str); 
-	
-	//cout<<str<<"\n";
+		getline (cin, str);
+
 		cout<<"\n\n";
 		for(int i=0;i<7;i++)
 			getlinepat(str,i);
-	
-	cout<<"\nPress any key to Exit : ";
-	getch();
-	
+
+
 	return 0;
 }
