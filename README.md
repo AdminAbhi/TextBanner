@@ -6,8 +6,8 @@ The banner program on Unix and Unix-like operating systems outputs a large ASCII
 
 ### How to use?
 
-1. Download the .cpp file 
-2. RUN the code in any cpp compliler
+1. Download the TextBanner.cpp file 
+2. RUN the code in any cpp compiler
 3. That's it!
 
 ## Demo:
